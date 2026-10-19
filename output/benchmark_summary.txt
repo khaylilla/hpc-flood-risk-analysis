@@ -1,0 +1,18 @@
+Ringkasan Insight Benchmark Titanic
+===================================
+
+Jumlah baris dataset training: 891
+Jumlah kolom: 12
+Duplikasi baris: 0
+Distribusi target Survived: {0: 0.6161616161616161, 1: 0.3838383838383838}
+Missing values: {'PassengerId': 0, 'Survived': 0, 'Pclass': 0, 'Name': 0, 'Sex': 0, 'Age': 177, 'SibSp': 0, 'Parch': 0, 'Ticket': 0, 'Fare': 0, 'Cabin': 687, 'Embarked': 2}
+
+Hasil benchmark menunjukkan bahwa ukuran data memengaruhi waktu preprocessing dan training secara nyata.
+Model dengan waktu total terendah adalah Logistic Regression pada proporsi data 0.25.
+
+Catatan penting:
+- Benchmark ini dilakukan pada dataset kecil dan komputer pribadi.
+- Hasil ini bukan bukti langsung performa superkomputer atau HPC.
+- Ini lebih tepat dipahami sebagai demonstrasi konseptual skalabilitas komputasi dan biaya komputasi ML.
+
+Metrik paling penting dari hasil eksperimen dipetakan otomatis dalam file CSV dan grafik PNG yang tersimpan di folder output/.
